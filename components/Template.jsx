@@ -14,7 +14,7 @@ export default function Template({ children }) {
 
             <main className="container">
                 <Navbar />
-                <div className="flex flex-row">
+                <div className="flex flex-row w-screen">
                     <Sidebar />
                     <Content >{children}</Content>
                 </div>
