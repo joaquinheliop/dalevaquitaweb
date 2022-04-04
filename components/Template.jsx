@@ -12,7 +12,7 @@ export default function Template({ children }) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className="container mx-auto relative">
+            <main className="container">
                 <Navbar />
                 <div className="flex flex-row">
                     <Sidebar />
