@@ -19,7 +19,7 @@ export default function Home({ data }) {
         {/* Barra de herramientas */}
         <div className="col-span-5 mb-4">
           <BarraEmergenteAnimales handleChange={handleChange} />
-          <div className="w-full h-fit bg-green-500 text-white shadow-lg col-span-5 p-5 flex flex-row uppercase rounded-b-xl">
+          <div className="w-full h-fit bg-green-800 text-white shadow-lg col-span-5 p-5 flex flex-row uppercase rounded-b-xl">
             <h3 className="font-semibold w-full text-center">caravana</h3>
             <h3 className="font-semibold w-full text-center">rfid</h3>
             <h3 className="font-semibold w-full text-center">campo</h3>

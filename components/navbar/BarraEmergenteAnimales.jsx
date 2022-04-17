@@ -10,20 +10,20 @@ const BarraEmergenteAnimales = ({ handleChange }) => {
             <div className="flex flex-col w-full p-4 gap-4 ">
                 {/* Busqueda */}
                 <div className="flex flex-row gap-4">
-                    <input type="text" placeholder="Buscar..." onChange={handleChange} className="w-full p-2 border-2 border-green-500 rounded text-black placeholder:text-black" />
+                    <input type="text" placeholder="Buscar..." onChange={handleChange} className="w-full p-2 border-2 border-green-800 rounded text-black placeholder:text-black" />
                 </div>
                 {/* Fin busqueda */}
                 {/* Botones */}
                 <div className="flex flex-row">
-                    <select name="select" className="w-full p-2 border-2 border-green-500 rounded text-black">
+                    <select name="select" className="w-full p-2 border-2 border-green-800 rounded text-black">
                         <option value="value1" selected>Ultima Pesada</option>
                         <option value="value2" >Historico</option>
                     </select>
                     <div className="w-fit flex flex-row items-center justify-center gap-4 pl-4">
-                        <FontAwesomeIcon icon={faFilter} className="text-green-500 hover:bg-green-500 hover:text-white p-2 rounded" />
-                        <FontAwesomeIcon icon={faPen} className="text-green-500 hover:bg-green-500 hover:text-white p-2 rounded" />
-                        <FontAwesomeIcon icon={faTrash} className="text-green-500 hover:bg-green-500 hover:text-white p-2 rounded" />
-                        <FontAwesomeIcon icon={faArrowCircleDown} className="text-green-500 hover:bg-green-500 hover:text-white p-2 rounded" />
+                        <FontAwesomeIcon icon={faFilter} className="text-green-800 hover:bg-green-800 hover:text-white p-2 rounded" />
+                        <FontAwesomeIcon icon={faPen} className="text-green-800 hover:bg-green-800 hover:text-white p-2 rounded" />
+                        <FontAwesomeIcon icon={faTrash} className="text-green-800 hover:bg-green-800 hover:text-white p-2 rounded" />
+                        <FontAwesomeIcon icon={faArrowCircleDown} className="text-green-800 hover:bg-green-800 hover:text-white p-2 rounded" />
                     </div>
                 </div>
                 {/* Fin botones */}

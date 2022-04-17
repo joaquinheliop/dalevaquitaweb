@@ -1,9 +1,9 @@
-import Item from "./navbar/Item"
+import Item from "./Item"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faGear, faUser, faX } from "@fortawesome/free-solid-svg-icons"
 
 import { useContext } from "react"
-import { UserContext } from "../context/AppContext"
+import { UserContext } from "../../context/AppContext"
 
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
   const { closeSidebar, openSidebar, toggle } = useContext(UserContext)
 
   return (
-    <div className="bg-white shadow-lg w-screen sticky top-0 z-40 h-16 flex justify-end px-4">
+    <div className="bg-white shadow-lg w-full sticky top-0 z-40 h-16 flex justify-end px-4">
 
       {/* Boton del sidebar */}
       <div className="flex basis-1/2 justify-start items-center xl:hidden" onClick={toggle ? closeSidebar : openSidebar}>
