@@ -2,7 +2,7 @@ import CardAnimal from "../components/content/CardAnimal"
 import Template from "../components/Template"
 import BarraEmergenteAnimales from "../components/navbar/BarraEmergenteAnimales"
 import { useState } from "react"
-import Modal from "../components/modal"
+import Modal from "../components/Modal"
 import Filter from "../components/modals/Filter"
 
 export default function Home({ data }) {
