@@ -1,7 +1,7 @@
 import { faArrowCircleDown, faFilter, faMagnifyingGlass, faPen, faTrash } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-const BarraEmergenteAnimales = ({ handleChange }) => {
+const BarraEmergenteAnimales = ({ handleChange, showModalFilter }) => {
 
 
     return (
@@ -20,7 +20,7 @@ const BarraEmergenteAnimales = ({ handleChange }) => {
                         <option value="value2" >Historico</option>
                     </select>
                     <div className="w-fit flex flex-row items-center justify-center gap-4 pl-4">
-                        <FontAwesomeIcon icon={faFilter} className="text-green-800 hover:bg-green-800 hover:text-white p-2 rounded" />
+                        <FontAwesomeIcon icon={faFilter} onClick={showModalFilter} className="text-green-800 hover:bg-green-800 hover:text-white p-2 rounded" />
                         <FontAwesomeIcon icon={faPen} className="text-green-800 hover:bg-green-800 hover:text-white p-2 rounded" />
                         <FontAwesomeIcon icon={faTrash} className="text-green-800 hover:bg-green-800 hover:text-white p-2 rounded" />
                         <FontAwesomeIcon icon={faArrowCircleDown} className="text-green-800 hover:bg-green-800 hover:text-white p-2 rounded" />
