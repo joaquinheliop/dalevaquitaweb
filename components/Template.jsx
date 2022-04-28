@@ -13,10 +13,12 @@ export default function Template({ children }) {
             </Head>
 
             <main className="container">
-                <Navbar />
-                <div className="flex flex-row w-screen">
-                    <Sidebar />
-                    <Content >{children}</Content>
+                <div className='flex flex-col'>
+                    <Navbar />
+                    <div className="flex flex-row w-screen">
+                        <Sidebar />
+                        <Content >{children}</Content>
+                    </div>
                 </div>
             </main>
 
